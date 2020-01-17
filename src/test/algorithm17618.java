@@ -1,5 +1,6 @@
 //신기한 수
 
+
 package test;
 
 import java.util.Scanner;
