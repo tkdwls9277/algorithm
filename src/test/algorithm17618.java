@@ -1,8 +1,10 @@
+//신기한 수
+
 package test;
 
 import java.util.Scanner;
 
-public class test1 {
+public class algorithm17618 {
     public static void main(String args[]) {
     	int a;
     	int mok=0, ext;
