@@ -1,4 +1,4 @@
-package test;
+package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 
