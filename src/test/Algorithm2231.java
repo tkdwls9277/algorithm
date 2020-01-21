@@ -1,4 +1,4 @@
-package test;
+package test;  // FIXME dev.tkdwls9277.algorithm 라고 어플리케이션 패키지를 만들었는데, 다시 test 패키지를 만들었네영 ???
 
 import java.util.Scanner;
 public class Algorithm2231 {
