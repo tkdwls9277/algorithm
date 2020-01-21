@@ -1,16 +1,15 @@
-//신기한 수  // FIXME 1라인은 package 선언으로 남겨두고, 클래스에 주석으로 옮기시죠
-
-package dev.tkdwls9277.algorithm;
+package test;
 
 import java.util.Scanner;
 
-public class algorithm17618 {  // FIXME 클래스 이름 시작 대문자
+//신기한 수  
+public class Algorithm17618 {
     public static void main(String args[]) {
     	int a;
     	int mok=0, ext;
     	int sum=0;
     	int count=0;
-    	Scanner s = new Scanner(System.in);  // FIXME stdin close 필요합니다
+    	Scanner s = new Scanner(System.in);
     	a = s.nextInt();
     	
     	for(int i=1;i<=a;i++) {

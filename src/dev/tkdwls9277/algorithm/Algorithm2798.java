@@ -1,31 +1,29 @@
-package dev.tkdwls9277.algorithm;
+package test;
 
 import java.util.Scanner;
 
-/**
- * 블랙잭(브루트포스) <=== 클래스 주석 위치 이동
- */
+//블랙잭(브루트포스)
+
 public class Algorithm2798 {
 
 	public static void main(String[] args) {
-		// FIXME 의미 없는 자동완성 주석 삭제
-		int count, M, memo=0;  // FIXME 변수명 M 의미있는 변수명으로 바꿔주세요
-		int[] N;
+		int count, numberM, memo=0;
+		int[] numberN;
 		
-		Scanner s = new Scanner(System.in);  // FIXME 변수명 s 무의미, stdin 시스템 리소스인데 close 안해서 warnning 뜹니다
+		Scanner s = new Scanner(System.in);
 		
 		count = s.nextInt();
-		M=s.nextInt();
-		N=new int[count];
-		for(int i=0;i<N.length;i++) {
-			N[i]=s.nextInt();
+		numberM=s.nextInt();
+		numberN=new int[count];
+		for(int i=0;i<numberN.length;i++) {
+			numberN[i]=s.nextInt();
 		}
-		for(int j=0;j<N.length;j++) {
-			for(int k=j+1;k<N.length;k++) {
-				for(int h=k+1;h<N.length;h++) {
-					if(N[j]+N[k]+N[h]<=M && N[j]+N[k]+N[h]>=memo) {
+		for(int j=0;j<numberN.length;j++) {
+			for(int k=j+1;k<numberN.length;k++) {
+				for(int h=k+1;h<numberN.length;h++) {
+					if(numberN[j]+numberN[k]+numberN[h]<=numberM && numberN[j]+numberN[k]+numberN[h]>=memo) {
 						
-						memo=N[j]+N[k]+N[h];
+						memo=numberN[j]+numberN[k]+numberN[h];
 					}
 				}
 			}
