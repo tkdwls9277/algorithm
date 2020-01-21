@@ -30,5 +30,7 @@ public class algorithm17618 {  // FIXME 클래스 이름 시작 대문자
     			count++;
     	}
     	System.out.println(count);
+    	
+    	s.close();
     }
 }

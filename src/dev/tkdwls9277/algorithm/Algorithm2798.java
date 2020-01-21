@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Algorithm2798 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub  // FIXME <=== 의미 없는 자동완성 주석 삭제
+		// FIXME 의미 없는 자동완성 주석 삭제
 		int count, M, memo=0;  // FIXME 변수명 M 의미있는 변수명으로 바꿔주세요
 		int[] N;
 		
@@ -31,6 +31,7 @@ public class Algorithm2798 {
 			}
 		}
 		System.out.println(memo);
+		
+		s.close();
 	}
-
 }
