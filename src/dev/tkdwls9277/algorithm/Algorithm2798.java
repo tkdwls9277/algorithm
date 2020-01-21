@@ -1,6 +1,6 @@
 //블랙잭(브루트포스)
 
-package test;
+package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 public class Algorithm2798 {

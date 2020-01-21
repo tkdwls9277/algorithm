@@ -1,6 +1,6 @@
 //피보나치 수(재귀)
 
-package test;
+package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 
