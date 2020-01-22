@@ -6,7 +6,6 @@ import java.util.Scanner;
  * 
 */
 
-
 public class Algorithm2798 {
 
 	public static void main(String[] args) {
