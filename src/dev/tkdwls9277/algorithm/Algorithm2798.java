@@ -3,6 +3,7 @@ package dev.tkdwls9277.algorithm;
 import java.util.Scanner;
 
 /**블랙잭(브루트포스)
+ * 
 */
 
 public class Algorithm2798 {
