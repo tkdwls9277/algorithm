@@ -2,7 +2,10 @@ package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 
-//신기한 수  
+/**
+ * 신기한 수
+ *
+ */
 public class Algorithm17618 {
     public static void main(String args[]) {
     	int a;
