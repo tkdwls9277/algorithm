@@ -1,10 +1,13 @@
 package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
+
+//분해합
 public class Algorithm2231 {
 
 	public static void main(String[] args) {
-		test1();
+		//test1();
+		getdata();
 	}
 	
 	public static void getdata() {
@@ -33,15 +36,14 @@ public class Algorithm2231 {
 			temp=i;
 			resultsum=i;
 			namurge=1;
-			System.out.println("temp="+temp+"resultsum="+resultsum);
-			while(namurge!=0) {
-				namurge=temp/10;
-				temp=temp%10;
-				resultsum=resultsum+temp;
-				System.out.println("resultsum="+resultsum);
+			while(temp!=0) {
+				namurge=temp%10;
+				temp=temp/10;
+				resultsum=resultsum+namurge;
 			}
-			if(resultsum==num)
-				result=resultsum;
+			if(resultsum==num) {
+				result=i;
+			}
 		}
 		return result;
 	}
