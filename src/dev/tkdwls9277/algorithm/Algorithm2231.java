@@ -30,6 +30,11 @@ public class Algorithm2231 {
 		getdata();
 	}
 	
+	/**
+	 * 메소드 이름이 getData() 인데 리턴이 void 라서 데이터를 가져오지 않아서 메소드명이 어색하네여
+	 * println(result) 를 하는게 메소드 목적인거 같은데
+	 * printData() 라든가 showData() 등이 좋을거 같아요
+	 */
 	public static void getdata() {
 		int number, result;
 		Scanner s = new Scanner(System.in);
@@ -48,6 +53,9 @@ public class Algorithm2231 {
 		System.out.println(result);
 	}
 	
+	/**
+	 * FIXME namurge = temp % 10; for(int i=num; i>=0; i--) 처럼 연산자와 피연산자 사이에는 띄워주세요, 가독성 떨어지네여
+	 */
 	public static int SliceSum(int num) {
 		int temp,namurge;
 		int resultsum;
