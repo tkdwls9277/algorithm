@@ -30,7 +30,7 @@ public class Algorithm10870 {
 		Scanner s = new Scanner(System.in);
 		int first = 0;
 		int second = 1;
-		int count=0;
+		int count = 0;
 		int getnum = s.nextInt();
 		int result=zagui(first, second, getnum, count);
 		System.out.println(result);
@@ -38,7 +38,7 @@ public class Algorithm10870 {
 	}
 	
 	static int zagui(int a, int b, int breaknum, int count) {
-		if(count==breaknum) {
+		if(count == breaknum) {
 			return a;
 		}
 		count++;

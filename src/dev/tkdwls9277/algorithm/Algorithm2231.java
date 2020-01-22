@@ -26,30 +26,29 @@ import java.util.Scanner;
 public class Algorithm2231 {
 
 	public static void main(String[] args) {
+		
 		//test1();
-		getdata();
+		
+		int result = getData();
+		
+		System.out.println(result);
 	}
 	
-	/**
-	 * 메소드 이름이 getData() 인데 리턴이 void 라서 데이터를 가져오지 않아서 메소드명이 어색하네여
-	 * println(result) 를 하는게 메소드 목적인거 같은데
-	 * printData() 라든가 showData() 등이 좋을거 같아요
-	 */
-	public static void getdata() {
+	public static int getData() {
 		int number, result;
 		Scanner s = new Scanner(System.in);
 		
 		number = s.nextInt();
 		result = SliceSum(number);
 		
-		System.out.println(result);
-		
 		s.close();
+		
+		return result;
 	}
 	
 	public static void test1() {
 		int result;
-		result=SliceSum(216);
+		result = SliceSum(216);
 		System.out.println(result);
 	}
 	
@@ -59,18 +58,18 @@ public class Algorithm2231 {
 	public static int SliceSum(int num) {
 		int temp,namurge;
 		int resultsum;
-		int result=0;
-		for(int i=num;i>=0;i--) {
-			temp=i;
-			resultsum=i;
-			namurge=1;
-			while(temp!=0) {
-				namurge=temp%10;
-				temp=temp/10;
-				resultsum=resultsum+namurge;
+		int result = 0;
+		for(int i = num; i>=0; i--) {
+			temp = i;
+			resultsum = i;
+			namurge = 1;
+			while(temp != 0) {
+				namurge = temp % 10;
+				temp = temp / 10;
+				resultsum = resultsum + namurge;
 			}
-			if(resultsum==num) {
-				result=i;
+			if(resultsum == num) {
+				result = i;
 			}
 		}
 		return result;
