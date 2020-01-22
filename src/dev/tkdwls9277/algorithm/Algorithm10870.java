@@ -21,6 +21,7 @@ import java.util.Scanner;
  * 출력
  * 첫째 줄에 n번째 피보나치 수를 출력한다.
  * </pre>
+ * 
  */
 public class Algorithm10870 {
 	
