@@ -2,7 +2,8 @@ package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 
-//분해합
+/**분해합
+ */
 public class Algorithm2231 {
 
 	public static void main(String[] args) {
