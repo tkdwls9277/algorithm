@@ -22,29 +22,67 @@ package dev.tkdwls9277.algorithm;
 import java.util.*;
 
 public class Algorithm15649 {
+	static int[] arr;
+	static boolean[] visit;
+	
 	public static void main(String[] args) {
-		test1();
+		//test1();
+		//test2();
+		//test3();
+		showData();
 	}
 	
 	static void showData() {
 		Scanner s = new Scanner(System.in);
 		
+		int first, second;
+		first = s.nextInt();
+		second = s.nextInt();
+		
+		arr=new int[second];
+		visit=new boolean[first+1];
+		
+		solution(first,second,0);
 		s.close();
 	}
 	
 	static void test1() {
-		solution(3,1);
+		arr=new int[1];
+		visit=new boolean[4];
+		solution(3,1,0);
 	}
 
 	static void test2() {
-		solution(4,2);
+		arr=new int[2];
+		visit=new boolean[5];
+		solution(4,2,0);
 	}
 
 	static void test3() {
-		solution(4,4);
+		arr=new int[4];
+		visit=new boolean[5];
+		solution(4,4,0);
 	}
-	static void solution(int numN, int numM) {
+	
+	static void solution(int numN, int numM, int count) {
+		if(numM==count) {
+			for(int i=0;i<arr.length;i++) {
+				System.out.print(arr[i]+" ");
+			}
+			System.out.print("\n");
+			return;
+		}
 		
+		for(int i=1;i<=numN;i++) {
+			if(!visit[i]) {
+				visit[i]=true;
+				arr[count]=i;
+				solution(numN,numM,count+1);
+				visit[i]=false;
+				
+			}
+		}
+		return;
 		
 	}
 
