@@ -35,6 +35,10 @@ public class Algorithm15651 {
 		//test2();
 		//test3();
 		showData();
+
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		bw.write(sb.toString().trim());
+		bw.close();
 	}
 	
 	static void showData() {
@@ -48,10 +52,7 @@ public class Algorithm15651 {
 		sb=new StringBuilder();
 		
 		solution(first,second,0);
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		//bw.write(sb.toString().trim());
-		//bw.close();
 		s.close();
 	}
 	
