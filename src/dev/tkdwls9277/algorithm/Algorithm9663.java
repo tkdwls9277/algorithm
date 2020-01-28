@@ -51,6 +51,7 @@ public class Algorithm9663 {
 		count=0;
 		Nqueen(Qnum, 0);
 		System.out.println(count);
+		s.close();
 	}
 	
 	//퀸을 실질적으로 놓는 메소드
