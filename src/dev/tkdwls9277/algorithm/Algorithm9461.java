@@ -2,6 +2,7 @@ package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 
+
 /**
  * 파도반 수열(동적계획법)
  * https://www.acmicpc.net/problem/9461
@@ -29,7 +30,8 @@ import java.util.Scanner;
  */
 public class Algorithm9461 {
 	public static void main(String[] args) {
-		int[] spiral = new int[100];
+		
+		long[] spiral = new long[100];
 		spiral[0]=1;
 		spiral[1]=1;
 		spiral[2]=1;
