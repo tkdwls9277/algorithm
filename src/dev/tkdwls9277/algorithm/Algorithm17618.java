@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 신기한 수
- * https://www.acmicpc.net/problem/17618
+ * <a href="https://www.acmicpc.net/problem/17618">https://www.acmicpc.net/problem/17618</a>
  * 
  * <pre>
  * 문제

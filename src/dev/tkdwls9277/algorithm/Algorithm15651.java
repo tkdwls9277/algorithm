@@ -1,8 +1,12 @@
 package dev.tkdwls9277.algorithm;
 
+import java.util.*;
+import java.io.BufferedWriter;
+import java.io.OutputStreamWriter;
+
 /**
  * N과 M(백트레킹)
- * https://www.acmicpc.net/problem/15651
+ * <a href="https://www.acmicpc.net/problem/15651">https://www.acmicpc.net/problem/15651</a>
  * 
  * <pre>
  * 문제
@@ -21,10 +25,6 @@ package dev.tkdwls9277.algorithm;
  * </pre>
  * 
  */
-import java.util.*;
-import java.io.BufferedWriter;
-import java.io.OutputStreamWriter;
-
 public class Algorithm15651 {
 	static int[] arr;
 	static boolean[] visit;

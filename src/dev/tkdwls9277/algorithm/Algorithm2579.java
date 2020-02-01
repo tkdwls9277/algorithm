@@ -3,7 +3,7 @@ package dev.tkdwls9277.algorithm;
 import java.util.Scanner;
 /**
  * 계단오르기 - 동적계산법 
- * https://www.acmicpc.net/problem/2579
+ * <a href="https://www.acmicpc.net/problem/2579">https://www.acmicpc.net/problem/2579</a>
  * 
  * <pre>
  * 문제

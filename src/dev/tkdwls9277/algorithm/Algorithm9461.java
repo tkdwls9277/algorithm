@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 파도반 수열(동적계획법)
- * https://www.acmicpc.net/problem/9461
+ * <a href="https://www.acmicpc.net/problem/9461">https://www.acmicpc.net/problem/9461</a>
  * 
  * <pre>
  * 문제

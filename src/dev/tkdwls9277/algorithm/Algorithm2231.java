@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 분해합
- * https://www.acmicpc.net/problem/2231
+ * <a href="https://www.acmicpc.net/problem/2231">https://www.acmicpc.net/problem/2231</a>
  * 
  * <pre>
  * 문제
@@ -51,12 +51,9 @@ public class Algorithm2231 {
 		result = SliceSum(216);
 		System.out.println(result);
 	}
-	
-	/**
-	 * FIXME namurge = temp % 10; for(int i=num; i>=0; i--) 처럼 연산자와 피연산자 사이에는 띄워주세요, 가독성 떨어지네여
-	 */
+
 	public static int SliceSum(int num) {
-		int temp,namurge;
+		int temp, namurge;
 		int resultsum;
 		int result = 0;
 		for(int i = num; i>=0; i--) {

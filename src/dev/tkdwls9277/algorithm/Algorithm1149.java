@@ -3,7 +3,7 @@ package dev.tkdwls9277.algorithm;
 import java.util.Scanner;
 /**
  * RGB거리 - 동적계산법
- * https://www.acmicpc.net/problem/1149
+ * <a href="https://www.acmicpc.net/problem/1149">https://www.acmicpc.net/problem/1149</a>
  * 
  * <pre>
  * 문제

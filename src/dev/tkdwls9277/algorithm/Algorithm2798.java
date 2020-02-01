@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 블랙잭(브루트포스)
- * https://www.acmicpc.net/problem/2798
+ * <a href="https://www.acmicpc.net/problem/2798">https://www.acmicpc.net/problem/2798</a>
  * 
  * <pre>
  * 문제

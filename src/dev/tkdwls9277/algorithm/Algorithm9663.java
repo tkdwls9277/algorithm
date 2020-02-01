@@ -4,7 +4,7 @@ package dev.tkdwls9277.algorithm;
 import java.util.Scanner;
 /**
  * N-Queen(백트레킹)
- * https://www.acmicpc.net/problem/9663
+ * <a href = "https://www.acmicpc.net/problem/9663">https://www.acmicpc.net/problem/9663</a>
  * 
  * <pre>
  * 문제
