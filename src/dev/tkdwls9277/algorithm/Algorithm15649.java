@@ -28,8 +28,8 @@ public class Algorithm15649 {
 	public static void main(String[] args) {
 		//test1();
 		//test2();
-		//test3();
-		showData();
+		test3();
+		//showData();
 	}
 	
 	static void showData() {
