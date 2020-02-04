@@ -2,6 +2,7 @@ package dev.tkdwls9277.algorithm;
 
 import java.util.Scanner;
 
+
 /**
  * 정수삼각형 - 동적계산법
  * <a href = "https://www.acmicpc.net/problem/1932">https://www.acmicpc.net/problem/1932</a>
