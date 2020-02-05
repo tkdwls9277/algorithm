@@ -4,7 +4,7 @@
 
 -----------------
 
-백준 17618번 문제 - 신기한 수 구하기
+백준 17618번 문제 - 신기한 수 구하기 <a href="https://www.acmicpc.net/problem/17618">https://www.acmicpc.net/problem/17618</a>
 
 백준 10870번 문제 - 재귀를 이용한 피보나치 수 구하기
 
