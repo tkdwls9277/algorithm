@@ -28,7 +28,7 @@ import java.util.Scanner;
  *  출력
  *  첫째 줄에 합이 최대가 되는 경로에 있는 수의 합을 출력한다.
  * </pre>
- *
+ *깃 업로드 완료<br>
  */
 public class Algorithm1932 {
 

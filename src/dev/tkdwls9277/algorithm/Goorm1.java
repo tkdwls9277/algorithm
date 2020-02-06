@@ -5,6 +5,8 @@ import java.util.Arrays;
  * 참조문헌 작성하기
  * 
  * 참조문헌을 숫자로 변환 오름차순변환
+ * 
+ * 깃 업로드 완료<br>
  */
 public class Goorm1 {
 		public static void main(String[] args) throws Exception {

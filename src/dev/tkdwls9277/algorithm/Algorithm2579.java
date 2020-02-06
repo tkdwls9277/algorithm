@@ -31,6 +31,7 @@ import java.util.Scanner;
  * 출력
  * 첫째 줄에 계단 오르기 게임에서 얻을 수 있는 총 점수의 최댓값을 출력한다.
  * </pre>
+ * 깃 업로드 완료<br>
  */
 public class Algorithm2579 {
 

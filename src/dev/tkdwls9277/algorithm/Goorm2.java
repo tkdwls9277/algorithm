@@ -9,6 +9,8 @@ import java.util.Scanner;
  * 2팀 -> 1경기
  * 3팀 -> 3경기
  * 4팀 -> 6경기
+ * 
+ * 깃 업로드 완료<br>
  */
 public class Goorm2 {
 	public static void main(String[] args) throws Exception {

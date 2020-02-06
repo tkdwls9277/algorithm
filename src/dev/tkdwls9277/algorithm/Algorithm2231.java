@@ -22,6 +22,7 @@ import java.util.Scanner;
  * 출력
  * 첫째 줄에 답을 출력한다. 생성자가 없는 경우에는 0을 출력한다.
  * </pre>
+ * 깃 업로드 완료<br>
  */
 public class Algorithm2231 {
 

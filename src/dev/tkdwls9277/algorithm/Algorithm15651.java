@@ -23,7 +23,7 @@ import java.io.OutputStreamWriter;
  * 
  * 수열은 사전 순으로 증가하는 순서로 출력해야 한다.
  * </pre>
- * 
+ * 깃 업로드 완료<br>
  */
 public class Algorithm15651 {
 	static int[] arr;

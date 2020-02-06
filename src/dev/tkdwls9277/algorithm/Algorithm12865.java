@@ -25,6 +25,7 @@ import java.util.Scanner;
  * 출력
  * 한 줄에 배낭에 넣을 수 있는 물건들의 가치합의 최댓값을 출력한다.
  * </pre>
+ * 깃 업로드 완료<br>
  */
 public class Algorithm12865 {
 	
@@ -37,8 +38,8 @@ public class Algorithm12865 {
 	static void test1() {
 		int Pcount = 4;
 		int Pweight = 7;
-		int[] goodsWeight= {6,4,3,5};
-		int[] goodsValue= {13,8,6,12};
+		int[][] goods= {{6,13},{4,8},{3,6},{5,12}};
+		backpack(Pcount,Pweight,goods);
 	}
 	
 	static void test2() {
@@ -52,8 +53,12 @@ public class Algorithm12865 {
 		s.close();
 	}
 	
-	static void backpack() {
-
+	static void backpack(int Pcount, int Pweight, int[][] goods) {
+		for(int i=0;i<Pcount;i++) {
+			for(int j=0;j<i;j++) {
+				
+			}
+		}
 	}
 
 }

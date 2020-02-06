@@ -27,6 +27,7 @@ import java.util.Scanner;
  * 각 테스트 케이스마다 P(N)을 출력한다.
  * </pre>
  * 
+ * 깃 업로드 완료<br>
  */
 public class Algorithm9461 {
 	public static void main(String[] args) {

@@ -22,6 +22,9 @@ import java.util.Scanner;
  * 출력
  * 첫째 줄에 모든 집을 칠하는 비용의 최솟값을 출력한다.
  * </pre>
+ * 
+ * 깃 업로드 완료 <br>
+ * 티스토리 업로드 완료
  */
 public class Algorithm1149 {
 	

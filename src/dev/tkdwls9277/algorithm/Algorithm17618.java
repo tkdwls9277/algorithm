@@ -25,7 +25,7 @@ import java.util.Scanner;
  * 출력
  * N 이하인 신기한 수의 개수를 정수로 출력한다.
  * </pre>
- *
+ *깃 업로드 완료<br>
  */
 public class Algorithm17618 {
     public static void main(String args[]) {

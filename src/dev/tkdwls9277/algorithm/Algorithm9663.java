@@ -17,6 +17,8 @@ import java.util.Scanner;
  * 출력
  * 첫째 줄에 퀸 N개를 서로 공격할 수 없게 놓는 경우의 수를 출력한다.
  * </pre>
+ * 
+ * 깃 업로드 완료<br>
  */
 public class Algorithm9663 {
 

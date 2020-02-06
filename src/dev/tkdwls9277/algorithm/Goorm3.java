@@ -1,6 +1,33 @@
 package dev.tkdwls9277.algorithm;
 import java.io.*;
-
+/**
+ * <pre>
+ * 문제
+ * 세 가지의 문자열을 파싱하여 다른 비트의 수를 구하는 문제
+ * 
+ * 입력
+ * 2
+ * 3
+ * 255-128-3
+ * 254-128-3
+ * 254-128-19
+ * 1
+ * 0
+ * 0
+ * 1
+ * 첫 줄에는 테스트케이스의 숫자를 나타내는 10이하의 자연수 T가 주어진다. 
+ * 이후 총 T개의 칩에 대한 테스트케이스의 입력이 주어진다.
+ * 테스트케이스의 첫 줄에는 해당 칩이 출력하는 바이트의 수를 나타내는 50만이하의 자연수 L이 주어진다.
+ * 이후 세 줄에 걸쳐서 각 줄에 저온/고온/상온에서의 칩의 출력 결과가 주어진다.
+ * 
+ * 출력
+ * 2
+ * 1
+ * 3
+ * 각 테스트케이스에 대하여 해당 칩이 온도별로 상이한 결과를 나타내는 비트의 수를 한 줄에 정수로 출력한다.
+ * </pre>
+ *깃 업로드 완료<br>
+ */
 public class Goorm3 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
