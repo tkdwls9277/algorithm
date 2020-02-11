@@ -38,6 +38,7 @@ public class Algorithm10870 {
 		System.out.println(result);
 		s.close();
 	}
+	
 	static int zagui(int a, int b, int breaknum, int count) {
 		if(count == breaknum) {
 			return a;
